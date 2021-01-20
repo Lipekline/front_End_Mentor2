@@ -26,6 +26,7 @@ header{
     text-align: center;
     display: flex;
     flex-direction: row;
+    height: 30rem;
 
 }
 
@@ -34,17 +35,15 @@ header{
     background-repeat: no-repeat;
     background-position: bottom right;
     text-align: center;
-    display: block;
-    width: 50%;
-    height: 50%;
+    display: block; 
     padding-bottom: 30rem;
     position: relative;
 }
 
 .svg{
     border: solid;
-    max-width: 700px;
-    margin-left: -3rem;
+    width: 100%;
+    margin-left: -5rem;
 }
 
 .faq{
