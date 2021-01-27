@@ -28,7 +28,8 @@
                 Quantos mebros de equipe eu posso convidar ?
                 </div>
                 <div class="acordeon-body">
-                teste
+                    Você pode convidar até 2 usuários adicionais no plano Gratuito.
+                    Não há limite de membros da equipe para o plano Premium.
                 </div>
                 <hr>
 
@@ -38,7 +39,8 @@
                     Qual é o tamanho maximo de arquivos para Upload  ?
                     </div>
                     <div class="acordeon-body">
-                    teste
+                        Não mais do que 2 GB. 
+                        Todos os arquivos da sua conta devem caber no espaço de armazenamento alocado.
                     </div>
                     <hr>
 
@@ -48,7 +50,8 @@
                     Como posso redefinir minha senha ?
                     </div>
                     <div class="acordeon-body">
-                    teste
+                        Clique em “Esqueci a senha” na página de login ou “Alterar senha” na página de seu perfil. 
+                        Um link de redefinição será enviado para você.
                     </div>
                     <hr>
 
@@ -58,7 +61,7 @@
                     Posso cancelar minha inscrição ?
                     </div>
                     <div class="acordeon-body">
-                    teste
+                    Sim! Envie-nos uma mensagem e processaremos sua solicitação sem perguntas.
                     </div>
                     <hr>
 
@@ -68,7 +71,8 @@
                     Fornecem suporte adicional ?
                     </div>
                     <div class="acordeon-body">
-                    teste
+                        O suporte por chat e e-mail está disponível 24 horas por dia, 7 dias por semana. 
+                        As linhas telefônicas estão abertas durante o horário comercial normal
                     </div>
                     <hr>
                 
@@ -79,5 +83,15 @@
 <footer>
 
 </footer>
+
+<script>
+ for (let i = 0; i < document.querySelectorAll(".acordeon-header").length; i++) {
+  document.querySelectorAll(".acordeon-header")[i].addEventListener("click", function() {
+
+    this.classList.toggle("active");
+  });
+}
+
+</script>
 
 </html>
