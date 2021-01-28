@@ -65,8 +65,11 @@ box-shadow: 2px 10px 29px -9px rgba(0,0,0,0.61);
     height: 100%;
     padding-top: 7%;
     padding-right: 9%;
+    overflow-y: scroll;  
 }
-
+.faq::-webkit-scrollbar {
+  display: none;
+}
 .acordeon-header{
     margin-top: 40px;
     cursor: pointer;
